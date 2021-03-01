@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 // Your web app's Firebase configuration
-  var firebaseConfig = {
+  var config = {
     apiKey: "AIzaSyC5hlmIHmC8n5a17ZS35bNo3lpKxpxOePo",
     authDomain: "project-planner-df0aa.firebaseapp.com",
     projectId: "project-planner-df0aa",
@@ -13,8 +13,8 @@ import 'firebase/auth';
     measurementId: "G-2TK09RJQL8"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-  firebase.firestore().settings({ timestampsInSnapshots: true })
+  firebase.initializeApp(config);
+  // firebase.analytics();
+  firebase.firestore().settings({ timestampsInSnapshots: true });
 
   export default firebase;
