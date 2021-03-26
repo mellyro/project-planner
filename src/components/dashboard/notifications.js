@@ -7,7 +7,9 @@ const Notifications = (props) => {
                 < div className="card-content">
                     <span className="card-title">Notifications</span>
                     <ul>
-                        <li>List Notifications Here</li>
+                        <li>Notification</li>
+                        <li>Notification</li>
+                        <li>Notification</li>
                     </ul>
                 </div>
             </div>
