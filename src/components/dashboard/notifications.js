@@ -11,7 +11,7 @@ const Notifications = (props) => {
                         { nofications && notifications.map(item => {
                             return (
                                 <li key={item.id}>
-                                    <span className="pink-text">{item.user}</span>
+                                    <span className="pink-text">{item.user} </span>
                                     <span className="pink-text">{item.content}</span>
                                     <div className="grey-text note-date">
                                         {moment(item.time.toDate()).fromNow()}
