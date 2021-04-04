@@ -10,11 +10,11 @@
 <h2 align="center">Page Views</h2>  
 
 <p align='center'>
-    <img src="/client/src/assets/signin.png" alt="signin"/>
-    <img src="/client/src/assets/signup.png" alt="signup"/>
-    <img src="/client/src/assets/createproject.png" alt="create"/>
-    <img src="/client/src/assets/dashboard.png" alt="dashboard"/>
-    <img src="/client/src/assets/projectdetails.png" alt="details"/>
+    <img src="/src/assets/signin.png" alt="signin"/>
+    <img src="/src/assets/signup.png" alt="signup"/>
+    <img src="/src/assets/createproject.png" alt="create"/>
+    <img src="/src/assets/dashboard.png" alt="dashboard"/>
+    <img src="/src/assets/projectdetails.png" alt="details"/>
 </p>  
 
 ## Table of Contents
